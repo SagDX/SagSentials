@@ -1,0 +1,154 @@
+# Configuracion de SagSentials plugin que incluye cosas utiles! :D
+ 
+# Console error message.
+ 
+console_error_message: '&cYou are unable to execute this command!'
+ 
+ 
+# Mensajes de Fly:
+ 
+enable_fly: '&6Has&a activado&6 el&b&l Fly&6!&d :D'
+ 
+disable_fly: '&6Has&c desactivado&6 el&b&l Fly&6.'
+ 
+ 
+# Mensajes de Flyplayer:
+ 
+# %pts% para hacer referencia al nombre del jugador afectado por el comando!
+# %staff% para hacer referencia al nombre del miembro del staff que envio el comando!
+ 
+ptf_enable_fly: '&d%staff%&6 te ha&a activado&6 el&b&l Fly&6!&d :D'
+ 
+staff_enable_fly: '&6Has&a activado&6 el&b&l Fly&6 a&d %ptf%&6!&d :D'
+ 
+ptf_disable_fly: '&d%staff%&6 Te ha&c desactivado&6 el&b&l Fly&6.'
+ 
+staff_disable_fly: '&6Has&c desactivado&6 el&b&l Fly&6 a&d %ptf%&6.'
+ 
+ 
+# Workbench
+ 
+open_workbench: '&dCrafteando...'
+ 
+# EnderChest
+ 
+open_enderchest: '&6Accediendo a un&b Inventario&d Interdimensional...'
+
+# Mensajes /hat
+
+hat_air: '&eNecesitas tener un&d Item&e en la mano principal.'
+
+hat_only_one: '&cNo puedes ponerte mas de&6 1 item&c en la cabeza a la vez.'
+
+hat_worked: '&6Disfruta de tu nuevo sombrero :3'
+
+hat_chicken: '&6Disfruta de tu nuev..&b Joey eres tu?'
+ 
+# Setspawn coords and world.
+# No Tocar nada aqui, se ponen solas con /setspawn dentro del juego!
+ 
+spawn:
+ 
+  world:
+ 
+  x:
+ 
+  y:
+ 
+  z:
+ 
+  pitch:
+ 
+  yaw:
+ 
+# Setspawn message.
+ 
+setspawn_message: '&dSpawn&6 establecido!&d :D'
+ 
+# Spawn message.
+ 
+# %pts% para hacer referencia al nombre del jugador afectado por el comando!
+# %staff% para hacer referencia al nombre del miembro del staff que envio el comando!
+ 
+notspawnyet_message: '&cNo se ha establecido un&d spawn&c aun!'
+ 
+spawn_message: '&6Has sido teletransportado al&d&l Spawn&6!'
+ 
+pts_spawn: '&d%staff%&6 te ha teletransportado al&b&l Spawn&6!'
+ 
+staff_spawn: '&6Has teletransportado a&d %pts%&6 al&b&l Spawn&6!'
+ 
+ 
+ 
+# Rules
+ 
+rules:
+ 
+  - '&bAsgardServer&a&l Towny&4 Rules&b!'
+  - ''
+  - '&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-'
+  - ''
+  - '&eDon not use&4 mods&e, &4hacks&e, or any third party software that&c gives you advantage over other players&b Optifine and MiniMap mods allowed if you&c disable&b player locations in MiniMap mod!'
+  - ''
+  - '&eDon not use&5 Bugs&e,&5 glitches&e or&5 exploits!&6&l Report them here&b https://foro.asgardserver.es/forums/fallosybugs/'
+  - ''
+  - '&eDon not&4 SPAM&b except if you have&a permission&e of a&6 Staff&e member, or&r Y&4T&b rank.'
+  - ''
+  - '&eObscene and offensive&c Builds&e are forbidden!'
+  - ''
+  - '&ePlayer&c Traps&e are forbidden.'
+  - ''
+  - '&6&lRespect&b other players, we want to have a good community, so a fundamental aspect for that is being&6&l Respectful&b!'
+  - ''
+  - '&aKeep your language family friendly, that means&c NO insults or obscene, offensive, racist comments.'
+  - ''
+  - '&bKeep the chat clean, so please do not flood, and try to avoid CAPS.'
+  - ''
+  - '&eNot knowing the&4 Rules&e does not mean you can&4 bypass&e them!'
+  - ''
+  - '&eThe&6 Staff&e has the right to&4 ban&e a player from the&b community&e if we consider that it is necessary.'
+  - ''
+  - '&6For more info about the server&a https://asgardserver.es/'
+  - ''
+  - '&dEnjoy! :D'
+  - ''
+  - '&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&4-&r-&1-&r-&4-&r-&1-&r-&4-&r-&1-'
+ 
+# Reglas
+ 
+reglas:
+ 
+  - '&aReglas de&l Towny&a en&b AsgardServer'
+  - ''
+  - '&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-'
+  - ''
+  - '&eProhibido el uso de&4 Mods&e,&4 Hacks&e o&5 Programas externos&e que te den ventaja sobre el resto de usuarios&b Los mods Optifine y MiniMapa estan permitidos siempre que la localizacion de los jugadores en el mapa este&4 desactivada&b!'
+  - ''
+  - '&eEsta prohibido aprovecharse de&5 Bugs&e,&5 Glitches&e o&5 exploits&6&l Reportalos&b en&a https://foro.asgardserver.es/forums/fallosybugs/'
+  - ''
+  - '&eEsta prohibido hacer&4 SPAM&b excepto si tienes&a permiso&b de un miembro del&6 Staff&b o si tienes el rango&r Y&4T&b!'
+  - ''
+  - '&eEsta prohibido hacer&c Construcciones&e obscenas o ofensivas!'
+  - ''
+  - '&eEsta prohibido hacer&4 Trampas&e de&a Jugadores&e!'
+  - ''
+  - '&6&lRespeta&b al resto de usuari@s, queremos tener una buena comunidad, y algo fundamental para ello es ser&6&l Respetuoso&b!'
+  - ''
+  - '&aManten tu lenguaje apto para todos los publicos, esto incluye&c NO insultos, ni comentarios obscenos, ofensivos o racistas.'
+  - ''
+  - '&bManten el chat limpio, por favor no hagas flood y evita las MAYUSCULAS!'
+  - ''
+  - '&eEl&b desconocimiento&e de las normas no te hace invulnerable a ellas!'
+  - ''
+  - '&eEl&6 Staff&e se reserva el derecho a&4 banear&e a un/a usuari@ de la&b comunidad&e si se considera necesario.'
+  - ''
+  - '&6Para mas informacion sobre el servidor&a https://asgardserver.es/'
+  - ''
+  - '&dDisfruta! :D'
+  - ''
+  - '&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-&4-&e-'
+ 
+ 
+# Reload.
+ 
+reload_message: '&dSagSentials&6 reloaded&a successfully&6! :D'

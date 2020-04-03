@@ -1,0 +1,75 @@
+name: SagSentials
+version: 1.4
+main: me.sagsentials.MainSentials
+author: SagMCU
+description: Plugin with some usefull things for your server! :D
+api-version: 1.15
+commands:
+  fly:
+    description: To Fly :D
+    usage: /fly
+    default: op
+    permission: SagSentials.fly
+    permission-message: You don't have permission to use this command.
+  flyplayer:
+    description: To let others fly :D
+    usage: /flyplayer <player>
+    default: op
+    permission: SagSentials.admin
+    permission-message: You don't have permission to use this command.
+  craft:
+    description: Use a crafting table anywhere! :D
+    usage: /craft
+    aliases: [workbench, wb]
+    default: op
+    permission: SagSentials.craft
+    permission-message: You don't have permission to use this command.
+  enderchest:
+    description: Open your enderchest anywhere! :D
+    usage: /enderchest
+    aliases: [ec]
+    default: op
+    permission: SagSentials.enderchest
+    permission-message: You don't have permission to use this command.
+  reglas:
+    description: Show rules in spanish.
+    usage: /reglas
+    default: op
+    permission: SagSentials.rules
+    permission-message: You don't have permission to use this command.
+  rules:
+    description: Shows rules in English.
+    usage: /rules
+    default: op
+    permission: SagSentials.rules
+    permission-message: You don't have permission to use this command.
+  setspawn:
+    description: Set a spawn zone for your server.
+    usage: /setspawn
+    default: op
+    permission: SagSentials.admin
+    permission-message: You don't have permission to use this command.
+  spawnplayer:
+    description: Teleport a player to the spawn.
+    usage: /spawnplayer <player>
+    default: op
+    permission: SagSentials.admin
+    permission-message: You don't have permission to use this command.
+  spawn:
+    description: Go to the spawn!
+    usage: /spawn
+    default: op
+    permission: SagSentials.spawn
+    permission-message: You don't have permission to use this command.
+  sagsentials:
+    description: Reload plugin config.
+    usage: /SagSentials reload
+    default: op
+    permission: SagSentials.admin
+    permission-message: You don't have permission to use this command.
+  hat:
+    description: Use a fancy hat!.
+    usage: /hat
+    default: op
+    permission: SagSentials.hat
+    permission-message: You don't have permission to use this command.
