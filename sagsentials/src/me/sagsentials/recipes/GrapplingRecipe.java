@@ -56,31 +56,7 @@ public class GrapplingRecipe implements Listener {
 				if (ingredientNames[x].equals(wordToDescribeNothing)) {
 					recipeLetters[x] = ' ';
 				}
-			}
-			String row1 = "", row2 = "", row3 = "";
-			for (int x = 0; x < recipeLetters.length; x++) {
-				if (x < 3) {
-					row1 += recipeLetters[x];
-				} else if (x < 6) {
-					row2 += recipeLetters[x];
-				} else {
-					row3 += recipeLetters[x];
-				}
-			}        
-			String[] recipe = {row1, row2, row3};
-
-			.shape(recipe);
-			
-			// Set ingredients of elytra's recipe.
-			for (int x = 0; x < recipeLetters.length; x++) {
-				if (ingredientNames[x].equals(wordToDescribeNothing)) {
-					continue;
-				}
-				Material material = Material.valueOf(ingredientNames[x]);
-				GrapplingRecipe.setIngredient(recipeLetters[x], material);
-			}
-			
-			plugin.getServer().addRecipe(GHook);
+		
 		}
 
 	}
